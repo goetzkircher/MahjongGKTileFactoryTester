@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tmrDirtyStateDelay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Die HueBasis-Werte werden ergänzt durch die Sat (Sättigung) und Brg (Brightness/Helligkeit), die für jeden SteinStatus getrennt regelbar ist. Analog Symbol und FaceFrame.
+Rechtsklick auf die Trackbars in der linken Hälfte ruft die Auswahl benannter Farben auf, in der rechten Hälfte den Colorpicker.
+</value>
+  </data>
+  <data name="lblCommon.Text" xml:space="preserve">
+    <value>DSatI05Locked
+DBrgI05Locked
+DSatI06WerkstückStein
+DBrgI06WerkstückStein
+DSatI07MissingSecond
+DBrgI07MissingSecond
+DSatI08WSEinfgFehler
+DBrgI08WSEinfgFehler
+DSatI09WSZufallsgrafik
+DBrgI09WSZufallsgrafik</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 17</value>
+  </metadata>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>Hinweis: Bei Speichern werden die letzten 20 Versionen mit Datum-Uhrzeit versehen und im Verzeichnis aufgehoben. Das ist ein reines Backup-Sicherheitsnetz, den zum Laden müssen sie manuell umbenannt werden.</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>Die Farbe der Layer (3D-Unterbau der Steine) ist die des Face korrigiert um 
+diese Werte. Der Shift hebt/senkt (negative Werte) dunkle Töne stärker als helle.
+DeltaHue verschiebt den Farbton gegenüber HueBasisNormal
+</value>
+  </data>
+  <metadata name="tmrBtnSaveEnDisable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>306, 17</value>
+  </metadata>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>SatI01Normal
+BrgI01Normal
+DeltaShiftNormal
+DSatI02Selected
+DBrgI02Selected
+DShiftSelected
+DSatI03Selectable
+DBrgI03Selectable
+DShiftSelectable
+DSatI04Removable
+DBrgI04Removable
+DShiftRemovable</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>Allgemeiner Hinweis: Wenn die Steine mit einer feinen Linie durchkreuzt sind, heißt dass, daß eine neue Instanz von TileColors geladen ist,
+die noch nie gespeichert wurde. Da Kreuz verschwindet, sobald die Instanz gespeichert und dann wieder geladen wurde.
+(Das Kriterium ist: "wurde erfolgreich geladen" ==&gt; ist das Kreuz nach dem Laden noch da, geschah ein Ladefehler.)
+Gespeichert und Geladen wird immer ein komplettes SteinDesign bestehend aus 6 Steinsätzen: Light, Medium und Dark, jeweils in beiden Fonts.
+Gespeichert wird nur, wenn sich die zu speichernde Version von der gespeicherten Version unterscheidet. Da die letzten 20 Versionen erhalten bleiben,
+(als Backupfile mit Datum, muss manuell rückbenannt werden) ist dieses Vorgehen sinnvoll. (Gespeichert in [Anwenderverzeichnis]/MahjongGKTileFactoryTester.
+Wird mit "Load/Save im Entwicklungsverzeichnis" = False gespeichert, werden die Dateien in MahjongGK "eingehängt" (Auch in MahjongGK.vbproj).
+Damit das auch wirksam wird, muss MahjongGK neu erstellt werden. (ggf. sogar komplett neu laden, wenn sich kein Update zeigt.)
+
+</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>Symbole vlnr: Windrichtungen, Drache, Blumen, Jahrezeiten.
+Das letzte Symbol ist für die "Missing Second-"Steine.
+Falls Missing Second unbeschriftet bleiben soll anstelle des !
+ein Leerzeichen eingeben. (Wichtig: genau 8 Zeichen eingeben) </value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>Symbole mit eigener Farbe Mit Color.Transparent wird die Standardfarbe eingestellt. Genauer, wenn der Alpha-Kanal = 0.
+Der Pic-Farbwähler hat einen Button "Transparent", oder 00FFFFFF in das Textfeld eingeben. Orange + "X" ist Kennung.</value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>Wird bei den Geistern kein Wert eingegeben (Alpha = 255 oder 0, die anderen 0) werden Defaultwerte genommen, die
+meistens passen. Diese arbeiten aber nicht mit einer schnellen Matrix, sondern langsamer Hsb-Hin- und Rückwandlung.</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Es gibt einen Undo-Speicher.
+DoJob kopiert die aktuellen Werte zuerst nach Undo.
+Undo vertauscht die aktuellen Werte mit den Undo-Werten,
+sodaß mehrfachen Undo zwischen den Werten hin und her schaltet.</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>Kopiert die mit "&lt;-- CopyNonColorValues" gekennzeichneten oder alle Farbwerte 
+
+Vorgehen, wenn sich die Versionen nur in den Farben unterscheiden sollen:
+1. für Medium.Segeo die Steine entwickeln.
+2. Medium.Segeo nach Medium.Noto kopieren 
+3. Symbol- und Schrift-Positionen korrigieren in Medium.Noto korrigieren
+4. Medium-Werte nach Light und Dark kopieren. 
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>45</value>
+  </metadata>
+</root>

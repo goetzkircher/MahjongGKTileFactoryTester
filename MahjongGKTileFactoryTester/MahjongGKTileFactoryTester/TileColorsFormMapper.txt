@@ -1,0 +1,57 @@
+﻿5) So sieht das dann in der Praxis aus
+In TileColors
+Public Property Kommentar As String = String.Empty
+
+<XmlIgnore>
+Public Property FaceBorderColor As Color = Color.FromArgb(255, 80, 80, 80)
+
+<XmlElement("FaceBorderColor")>
+Public Property FaceBorderColorXml As String
+    Get
+        Return ColorToArgbHex(Me.FaceBorderColor)
+    End Get
+    Set(value As String)
+        Me.FaceBorderColor = ParseArgbHex(value)
+    End Set
+End Property
+
+Im Formular
+txtKommentar
+txtcolFaceBorderColor
+
+In txtcolFaceBorderColor steht dann z. B.:
+
+FF505050
+
+oder auch:
+
+#FF505050
+
+oder:
+
+&HFF505050
+
+Das Parsen akzeptiert alle drei Formen.
+
+6) Zwei kleine Hinweise
+
+Erstens:
+Wenn du Color-Properties so speicherst, dann gehört in SteinValue nur die echte Property:
+
+FaceBorderColor
+
+aber nicht:
+
+FaceBorderColorXml
+
+Zweitens:
+Wenn der Benutzer in der Farb-Textbox Unsinn eingibt, fliegt beim Einlesen eine FormatException. Das ist eigentlich gut, weil du dann sofort sauber reagieren kannst. Für den Editor kannst du später noch Validating ergänzen und die Eingabe direkt am Textfeld prüfen.
+
+7) Mein Fazit
+
+Ja, dein Wunschbild geht genau so:
+
+String → txt...
+Color → intern echte Color
+XML → lesbares AARRGGBB
+Formular → txtcol... mit Hex-ARGB zum direkten Bearbeiten

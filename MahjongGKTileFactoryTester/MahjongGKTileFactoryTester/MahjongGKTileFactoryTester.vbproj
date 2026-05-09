@@ -168,13 +168,13 @@
       <Project>{19cb0e5e-0f74-4dff-84c8-a6084952e6ba}</Project>
       <Name>MahjongGK.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\MahjongGK\TileFactory\TileFactory.vbproj">
+      <Project>{d9ebcb2b-b1d4-4401-b684-24729f4ea1c6}</Project>
+      <Name>TileFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ColorPickerHsb\ColorPickerHsb\ColorPickerHsb.vbproj">
       <Project>{37e4ee9f-921f-479c-ae6b-838ccfdf73d0}</Project>
       <Name>ColorPickerHsb</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TileFactory\TileFactory.vbproj">
-      <Project>{d9ebcb2b-b1d4-4401-b684-24729f4ea1c6}</Project>
-      <Name>TileFactory</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
